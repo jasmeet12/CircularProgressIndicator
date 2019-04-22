@@ -67,7 +67,7 @@ class ViewController: UIViewController,URLSessionDownloadDelegate {
         let center = self.view.center
         let progressLayerPath = UIBezierPath(arcCenter: center, radius: 100, startAngle: -CGFloat.pi/2, endAngle: 3*CGFloat.pi/2, clockwise: true)
         progressLayer.path = progressLayerPath.cgPath
-        progressLayer.strokeColor = UIColor(red: 234/255, green: 46/255, blue: 111/255, alpha: 1).cgColor
+        progressLayer.strokeColor = UIColor(red: 46/255, green: 234255, blue: 111/255, alpha: 1).cgColor
         progressLayer.strokeEnd = 0
         progressLayer.lineWidth = 10.0
         progressLayer.fillColor = UIColor.clear.cgColor
@@ -95,7 +95,7 @@ class ViewController: UIViewController,URLSessionDownloadDelegate {
         let greyLayerPath = UIBezierPath(arcCenter: self.view.center
             , radius: 100, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
         backgroundLayer.path = greyLayerPath.cgPath
-        backgroundLayer.strokeColor = UIColor(red: 56/255, green: 25/255, blue: 49/255, alpha: 1).cgColor
+        backgroundLayer.strokeColor = UIColor(red: 25/255, green: 56/255, blue: 49/255, alpha: 1).cgColor
         backgroundLayer.lineWidth = 10.0
         backgroundLayer.fillColor = UIColor.black.cgColor
         
@@ -112,7 +112,7 @@ class ViewController: UIViewController,URLSessionDownloadDelegate {
         pulseLayer.strokeColor = UIColor.clear.cgColor
         pulseLayer.lineWidth = 10.0
         pulseLayer.position = self.view.center
-        pulseLayer.fillColor = UIColor(red: 86/255, green: 30/255, blue: 63/255, alpha: 0.8).cgColor
+        pulseLayer.fillColor = UIColor(red: 30/255, green: 86/255, blue: 63/255, alpha: 1).cgColor
        
         self.view.layer.addSublayer(pulseLayer)
          animatePulaseLayer()
