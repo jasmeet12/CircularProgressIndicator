@@ -1,4 +1,4 @@
 # CircularProgressIndicator
 Circular Progress Indicator with Animation
 
-![Alt Text](https://media.giphy.com/media/TgCoOI1lqAZQsBOzsh/giphy.gif)
+![Alt Text](https://thumbs.gfycat.com/InferiorVigilantGuineafowl-size_restricted.gif)
